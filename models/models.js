@@ -102,7 +102,7 @@ const bloodBankSchema = new mongoose.Schema({
 // Create model for Blood Banks
 const BloodBank = mongoose.model('BloodBanks', bloodBankSchema);
 
-// Create schema for Camps
+// Create schema for Camp
 const campSchema = new mongoose.Schema({
     name: { type: String, required: true },
     date: { type: Date, required: true },
